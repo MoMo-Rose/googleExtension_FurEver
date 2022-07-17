@@ -1,0 +1,22 @@
+{
+  "name": "Together FUR-Ever",
+  "description": "Choose an encouraging BUDDY to motivate you as you study and work!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popupUI.html",
+    "default_icon": {
+      "16": "/images/juju16.png",
+      "32" : "/images/juju32.png",
+      "128": "/images/juju128.png" 
+    }
+  },
+  "icons": {
+    "16": "/images/juju16.png",
+    "32" : "/images/juju32.png" 
+  }
+}
